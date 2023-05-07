@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: rgb(117, 125, 125);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-name {
+  position: absolute;
+  top: 2rem;
+  width: 400px;
+  text-align: center;
+  background-color: aqua;
+  border: 3px solid green;
+}
+
+.tictactoe {
+  position: absolute;
+  top: 6rem;
+  left: 52rem;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
+
+.players label {
+  color: rgb(39, 9, 69);
+  font-weight: 800;
+}
+
+.players div {
+  font-size: large;
+  font-weight: 800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  border: 3px solid rgb(39, 9, 69);
+  size: 8cm;
+  width: 30px;
+  height: 20px;
+  margin-right: 30px;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+  width: 400px;
+  height: 400px;
+}
+
+.box .btn {
+  background-color: white;
+  width: 30%;
+  height: 30%;
+  margin: 3px;
+  text-align: center;
+  font-size: 70px;
+  font-weight: 800;
+}
+
+.restart {
+  position: absolute;
+  bottom: 15rem;
+  left: 54rem;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  font-size: larger;
+}
